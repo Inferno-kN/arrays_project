@@ -33,4 +33,10 @@ def sum_2d(matrix):
         summa1 += i
     return summa1
 
+def prod_2d(matrix):
+    multi = 1
+    for i in matrix:
+        multi *= i
+    return multi
+
 
