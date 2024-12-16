@@ -39,4 +39,8 @@ def prod_2d(matrix):
         multi *= i
     return multi
 
+def mean_2d(matrix):
+    average_2d = sum_2d(matrix) / len(matrix)
+    return average_2d
+
 
