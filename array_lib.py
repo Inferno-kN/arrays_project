@@ -25,3 +25,4 @@ def min_1d(arr):
     if min1 > arr[1]:
         min1 = arr[1]
     return min1
+
