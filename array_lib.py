@@ -26,3 +26,11 @@ def min_1d(arr):
         min1 = arr[1]
     return min1
 
+
+def sum_2d(matrix):
+    summa1 = 0
+    for i in matrix:
+        summa1 += i
+    return summa1
+
+
