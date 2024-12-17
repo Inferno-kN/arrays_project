@@ -45,3 +45,10 @@ def prod_2d(matrix):
 def mean_2d(matrix):
     average_2d = sum_2d(matrix) / len(matrix)
     return average_2d
+
+def prod_arrays(arr1, arr2):
+    result = []
+    for i in range(len(arr1)):
+        result.append(arr1[i] * arr2[i])
+    return result
+
