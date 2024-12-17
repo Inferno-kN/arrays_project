@@ -1,4 +1,7 @@
+from logger import log_action
+
 def sum_1d(arr):
+    log_action(arr)
     summa = 0
     for i in arr:
         summa += i
@@ -42,9 +45,3 @@ def prod_2d(matrix):
 def mean_2d(matrix):
     average_2d = sum_2d(matrix) / len(matrix)
     return average_2d
-
-def sum(a, b):
-
-
-
-
