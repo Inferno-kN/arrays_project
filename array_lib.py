@@ -52,3 +52,12 @@ def prod_arrays(arr1, arr2):
         result.append(arr1[i] * arr2[i])
     return result
 
+
+def filter_greater(data):
+    return data
+
+def filter_equal(data):
+    return data
+
+
+
