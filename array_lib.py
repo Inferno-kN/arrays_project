@@ -52,3 +52,16 @@ def prod_arrays(arr1, arr2):
         result.append(arr1[i] * arr2[i])
     return result
 
+def filter_less(arr: list, value: float) -> list:
+    new_arr = []
+    for i in range(len(arr)):
+        if arr[i] < value:
+            new_arr.append(arr[i])
+    return new_arr
+
+def filter_not_equal(arr: list, value: float) -> list:
+    new_arr = []
+    for i in range(len(arr)):
+        if arr[i] != value:
+            new_arr.append(arr[i])
+    return new_arr
